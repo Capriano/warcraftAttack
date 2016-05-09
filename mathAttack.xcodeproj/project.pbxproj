@@ -12,6 +12,10 @@
 		F43FD3EF1CDE49DC00AD837D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43FD3ED1CDE49DC00AD837D /* Main.storyboard */; };
 		F43FD3F11CDE49DC00AD837D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43FD3F01CDE49DC00AD837D /* Assets.xcassets */; };
 		F43FD3F41CDE49DC00AD837D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43FD3F21CDE49DC00AD837D /* LaunchScreen.storyboard */; };
+		F43FD3FC1CDE4D3D00AD837D /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F43FD3FB1CDE4D3D00AD837D /* Minecraft.ttf */; };
+		F43FD3FE1CDE587D00AD837D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43FD3FD1CDE587D00AD837D /* Character.swift */; };
+		F43FD4001CDE59FB00AD837D /* P1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43FD3FF1CDE59FB00AD837D /* P1.swift */; };
+		F43FD4021CDE5ACC00AD837D /* P2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43FD4011CDE5ACC00AD837D /* P2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F43FD3F01CDE49DC00AD837D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F43FD3F31CDE49DC00AD837D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F43FD3F51CDE49DC00AD837D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43FD3FB1CDE4D3D00AD837D /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		F43FD3FD1CDE587D00AD837D /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		F43FD3FF1CDE59FB00AD837D /* P1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1.swift; sourceTree = "<group>"; };
+		F43FD4011CDE5ACC00AD837D /* P2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		F43FD3E81CDE49DC00AD837D /* mathAttack */ = {
 			isa = PBXGroup;
 			children = (
+				F43FD3FB1CDE4D3D00AD837D /* Minecraft.ttf */,
 				F43FD3E91CDE49DC00AD837D /* AppDelegate.swift */,
 				F43FD3EB1CDE49DC00AD837D /* ViewController.swift */,
 				F43FD3ED1CDE49DC00AD837D /* Main.storyboard */,
+				F43FD3FD1CDE587D00AD837D /* Character.swift */,
+				F43FD3FF1CDE59FB00AD837D /* P1.swift */,
+				F43FD4011CDE5ACC00AD837D /* P2.swift */,
 				F43FD3F01CDE49DC00AD837D /* Assets.xcassets */,
 				F43FD3F21CDE49DC00AD837D /* LaunchScreen.storyboard */,
 				F43FD3F51CDE49DC00AD837D /* Info.plist */,
@@ -125,6 +137,7 @@
 			files = (
 				F43FD3F41CDE49DC00AD837D /* LaunchScreen.storyboard in Resources */,
 				F43FD3F11CDE49DC00AD837D /* Assets.xcassets in Resources */,
+				F43FD3FC1CDE4D3D00AD837D /* Minecraft.ttf in Resources */,
 				F43FD3EF1CDE49DC00AD837D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43FD4001CDE59FB00AD837D /* P1.swift in Sources */,
+				F43FD3FE1CDE587D00AD837D /* Character.swift in Sources */,
 				F43FD3EC1CDE49DC00AD837D /* ViewController.swift in Sources */,
+				F43FD4021CDE5ACC00AD837D /* P2.swift in Sources */,
 				F43FD3EA1CDE49DC00AD837D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
